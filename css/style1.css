@@ -1,0 +1,74 @@
+
+    .every {
+        /* color: rgb(var(--foreground-rgb)); */
+        /* color: #fff; */
+        /* background-color: #000; */
+        
+        background-size: cover;
+        background-size: contain;
+        width: 100%;
+        height: 900px;
+        font-family: n27;
+    }
+    header {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end; /* Align items to the start and end of the header */
+        align-items: end; /* Vertically align items within the header */
+        /* background-color: #333; */
+        color: white;
+        padding: 10px 20px;
+
+    }
+    button {
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+         color: #111827; 
+        /* background-color: #D1D5DB; */
+        padding: 8px 12px;
+        /* border-color: #fff; */
+        border: 1px solid white;
+         background-color: transparent; 
+        color: #ffffff; 
+        
+        cursor: pointer;
+        
+    }
+    button a{
+        text-decoration: none;
+        font-size: 16px;
+        
+        /* color: #fff;   */
+    }
+    button:hover{
+        /* color: black;  */
+        color: #fff;
+        background-color: #fff;
+    }
+    button a:hover{
+        color: black;
+    }
+
+    video {
+        object-fit: contain;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    video{
+        padding-left: 25%;
+        padding-top: 110px;
+    }
+    .container a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .container{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    letter-spacing: .5rem;
+    padding-left: 400px;
+    }
